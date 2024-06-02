@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Recados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b203f953fd5483a8ffb23e8aa74a954d2889b37c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Recados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Recados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

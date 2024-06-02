@@ -20,31 +20,70 @@ namespace Recados.Controllers
             _context = context;
         }
 
-        // GET: api/Recadoes
+
+        // GET: api/Recados
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Recado>>> GetRecContext()
+        public async Task<ActionResult<IEnumerable<Recado>>> GetRecados()
         {
-            return await _context.RecContext.ToListAsync();
+            return await _context.RecadoItem.ToListAsync();
         }
 
-        // GET: api/Recadoes/5
-        [HttpGet("{id}")]
+        // GET: api/Recados/5
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<Recado>> GetRecado(int id)
         {
-            var recado = await _context.RecContext.FindAsync(id);
+            var recados = await _context.RecadoItem.FindAsync(id);
+
+            if (recados == null)
+            {
+                return NotFound();
+            }
+
+            return recados;
+        }
+        [HttpGet("mensagem/{id}")]
+        public async Task<ActionResult<String>> GetMensagem(int id)
+        {
+            var recado = await _context.RecadoItem.FindAsync(id);
 
             if (recado == null)
             {
                 return NotFound();
             }
 
-            return recado;
+            return Ok(recado.Mensagem);
         }
 
-        // PUT: api/Recadoes/5
+        [HttpGet("remetente={remetente}")]
+        public async Task<ActionResult<String>> GetMensagemByRemetente(String remetente)
+        {
+            var recado = await _context.RecadoItem.FirstOrDefaultAsync(r => r.Remetente == remetente);
+
+            if (recado == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(recado.Mensagem);
+        }
+        [HttpGet("destinatario={destinatario}")]
+        public async Task<ActionResult<String>> GetMensagemByDestinatariio(String destinatario)
+        {
+            var recado = await _context.RecadoItem.FirstOrDefaultAsync(r => r.Destinatario == destinatario);
+
+            if (recado == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(recado.Mensagem);
+        }
+
+
+        // PUT: api/Recados/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutRecado(int id, Recado recado)
+        public async Task<IActionResult> PutRecados(int id, Recado recado)
         {
             if (id != recado.Id)
             {
@@ -59,7 +98,7 @@ namespace Recados.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!RecadoExists(id))
+                if (!RecadosExists(id))
                 {
                     return NotFound();
                 }
@@ -72,37 +111,38 @@ namespace Recados.Controllers
             return NoContent();
         }
 
-        // POST: api/Recadoes
+        // POST: api/Recados
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Recado>> PostRecado(Recado recado)
+        public async Task<ActionResult<Recado>> PostRecados(Recado recado)
         {
-            _context.RecContext.Add(recado);
+            _context.RecadoItem.Add(recado);
             await _context.SaveChangesAsync();
 
-            //return CreatedAtAction("GetRecado", new { id = recado.Id }, recado);
-            return CreatedAtAction(nameof(PostRecado),new {id = recado.Id},recado);
+            //return CreatedAtAction("GetRecados", new { id = recados.Id }, recados);
+            return CreatedAtAction(nameof(PostRecados), new { id = recado.Id }, recado);
         }
 
-        // DELETE: api/Recadoes/5
+        // DELETE: api/Recados/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteRecado(int id)
+        public async Task<IActionResult> DeleteRecados(int id)
         {
-            var recado = await _context.RecContext.FindAsync(id);
+            var recado = await _context.RecadoItem.FindAsync(id);
             if (recado == null)
             {
                 return NotFound();
             }
 
-            _context.RecContext.Remove(recado);
+            _context.RecadoItem.Remove(recado);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool RecadoExists(int id)
+
+        private bool RecadosExists(int id)
         {
-            return _context.RecContext.Any(e => e.Id == id);
+            return _context.RecadoItem.Any(e => e.Id == id);
         }
     }
 }

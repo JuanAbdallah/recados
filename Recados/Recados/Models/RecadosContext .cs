@@ -10,5 +10,5 @@ public class RecadosContext : DbContext
     {
     }
 
-    public DbSet<Recado> RecContext { get; set; } = null!;
+    public DbSet<Recado> RecadoItem { get; set; } = null!;
 }

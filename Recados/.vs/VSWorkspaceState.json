@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RecadosInfra",
+    "\\Recados",
     "\\Recados\\Controllers",
-    "\\Recados\\Models"
+    "\\Recados\\Models",
+    "\\RecInfra",
+    "\\RecInfra\\DAOs"
   ],
-  "SelectedNode": "\\RecadosInfra",
+  "SelectedNode": "\\Recados\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
