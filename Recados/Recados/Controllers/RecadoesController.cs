@@ -55,28 +55,28 @@ namespace Recados.Controllers
         }
 
         [HttpGet("remetente={remetente}")]
-        public async Task<ActionResult<String>> GetMensagemByRemetente(String remetente)
+        public async Task<ActionResult<List<Recado>>> GetRecadoByRemetente(String remetente)
         {
-            var recado = await _context.RecadoItem.FirstOrDefaultAsync(r => r.Remetente == remetente);
+            var recados = await _context.RecadoItem.Where(r => r.Remetente == remetente).ToListAsync();
 
-            if (recado == null)
+            if (recados == null || !recados.Any())
             {
                 return NotFound();
             }
 
-            return Ok(recado.Mensagem);
+            return Ok(recados);
         }
-        [HttpGet("destinatario={destinatario}")]
-        public async Task<ActionResult<String>> GetMensagemByDestinatariio(String destinatario)
-        {
-            var recado = await _context.RecadoItem.FirstOrDefaultAsync(r => r.Destinatario == destinatario);
 
-            if (recado == null)
+        [HttpGet("destinatario={destinatario}")]
+        public async Task<ActionResult<List<String>>> GetMensagemByDestinatariio(String destinatario)
+        {
+            var recados = await _context.RecadoItem.Where(r => r.Destinatario == destinatario).ToListAsync();
+            if (recados == null || !recados.Any())
             {
                 return NotFound();
             }
 
-            return Ok(recado.Mensagem);
+            return Ok(recados);
         }
 
 

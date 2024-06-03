@@ -17,35 +17,35 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Recados
 build_property.RootNamespace = Recados
-build_property.ProjectDir = C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\trabalho_pwa\recados\Recados\Recados\
+build_property.ProjectDir = C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\recados\Recados\Recados\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\trabalho_pwa\recados\Recados\Recados
+build_property.MSBuildProjectDirectory = C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\recados\Recados\Recados
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/trabalho_pwa/recados/Recados/Recados/Views/Recadoes/Create.cshtml]
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/recados/Recados/Recados/Views/Recadoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjYWRvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/trabalho_pwa/recados/Recados/Recados/Views/Recadoes/Delete.cshtml]
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/recados/Recados/Recados/Views/Recadoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjYWRvZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/trabalho_pwa/recados/Recados/Recados/Views/Recadoes/Details.cshtml]
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/recados/Recados/Recados/Views/Recadoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjYWRvZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/trabalho_pwa/recados/Recados/Recados/Views/Recadoes/Edit.cshtml]
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/recados/Recados/Recados/Views/Recadoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjYWRvZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/trabalho_pwa/recados/Recados/Recados/Views/Recadoes/Index.cshtml]
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/recados/Recados/Recados/Views/Recadoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjYWRvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/trabalho_pwa/recados/Recados/Recados/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/recados/Recados/Recados/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

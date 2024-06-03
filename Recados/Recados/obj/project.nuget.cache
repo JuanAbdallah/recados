@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2XXg5nemRc0=",
+  "dgSpecHash": "NdIRIxP5i9Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\trabalho_pwa\\recados\\Recados\\Recados\\Recados.csproj",
+  "projectFilePath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\recados\\Recados\\Recados\\Recados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

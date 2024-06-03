@@ -6754,11 +6754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\trabalho_pwa\\recados\\Recados\\Recados\\Recados.csproj",
+      "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\recados\\Recados\\Recados\\Recados.csproj",
       "projectName": "Recados",
-      "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\trabalho_pwa\\recados\\Recados\\Recados\\Recados.csproj",
+      "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\recados\\Recados\\Recados\\Recados.csproj",
       "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\trabalho_pwa\\recados\\Recados\\Recados\\obj\\",
+      "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\recados\\Recados\\Recados\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
