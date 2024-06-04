@@ -7,7 +7,7 @@ namespace RecInfra.DAOs
 {
     public class RecadosDAO
     {
-        const string connectionString = "Server=localhost; User ID=root; Password=root; Database=camillao";
+        const string connectionString = "Server=localhost; User ID=root; Password=juan1010; Database=camillao";
 
         public void Inserir(Recado recado)
         {

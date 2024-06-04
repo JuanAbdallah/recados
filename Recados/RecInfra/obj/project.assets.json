@@ -1953,23 +1953,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuário\\.nuget\\packages\\": {},
+    "C:\\Users\\juana\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\trabalho_pwa\\recados\\Recados\\RecInfra\\RecInfra.csproj",
+      "projectUniqueName": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecInfra\\RecInfra.csproj",
       "projectName": "RecInfra",
-      "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\trabalho_pwa\\recados\\Recados\\RecInfra\\RecInfra.csproj",
-      "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\trabalho_pwa\\recados\\Recados\\RecInfra\\obj\\",
+      "projectPath": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecInfra\\RecInfra.csproj",
+      "packagesPath": "C:\\Users\\juana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecInfra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -1,0 +1,38 @@
+﻿@page
+@model RecadoPages.Pages.Admin.IndexModel
+@{
+}
+
+<h2 class="text-center mb-5">LISTA DE RECADOS</h2>
+
+<div class="row mb-5">
+    <div class="cool">
+        <a href="/Admin/Create">Novo recado</a>
+    </div>
+    <div class="cool">
+           
+    </div>
+</div>
+
+    <table class="table">
+    <tr>
+        <th>id</th>
+        <th>mensagem</th>
+        <th>remetente</th>
+        <th>destinatário</th>
+    </tr>
+
+    @foreach(var recado in Model.recados)
+    {
+        <tr>
+        <td>@recado.Id</td>
+        <td>@recado.Mensagem</td>
+        <td>@recado.Remetente</td>
+        <td>@recado.Destinatario</td>
+        <td>
+            <a class="btn btn-primary btn-sm" href="/Admin/Editar?id=@recado.Id">Editar</a>
+                <a class="btn btn-primary btn-sm" href="/Admin/Delete?id=@recado.Id">Remover</a>
+        </td>
+        </tr>
+    }
+</table>
