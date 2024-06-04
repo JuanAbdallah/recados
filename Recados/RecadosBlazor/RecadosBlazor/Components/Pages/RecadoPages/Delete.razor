@@ -1,0 +1,61 @@
+﻿@page "/recados/delete"
+@inject RecadosBlazor.Data.AppDbContext DB
+@using RecadosBlazor.Models
+@inject NavigationManager NavigationManager
+@using Microsoft.EntityFrameworkCore
+
+<PageTitle>Delete</PageTitle>
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Recado</h4>
+    <hr />
+    @if (recado is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Mensagem</dt>
+            <dd class="col-sm-10">@recado.Mensagem</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Remetente</dt>
+            <dd class="col-sm-10">@recado.Remetente</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Destinatario</dt>
+            <dd class="col-sm-10">@recado.Destinatario</dd>
+        </dl>
+        <EditForm method="post" Model="recado" OnValidSubmit="DeleteRecado" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(recado is null)">Delete</button> |
+            <a href="/recados">Back to List</a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    Recado? recado;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        recado = await DB.Recados.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (recado is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    public async Task DeleteRecado()
+    {
+        DB.Recados.Remove(recado!);
+        await DB.SaveChangesAsync();
+        NavigationManager.NavigateTo("/recados");
+    }
+}

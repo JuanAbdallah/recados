@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecadosBlazor\\RecadosBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RecadosBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RecadosBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecadosBlazor\\RecadosBlazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecadosBlazor\\RecadosBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecadosBlazor\\RecadosBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Desktop\\recados\\Recados\\RecadosBlazor\\RecadosBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RecadosBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RecadosBlazor.props",
+      "PackagePath": "build\\RecadosBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RecadosBlazor.props",
+      "PackagePath": "buildMultiTargeting\\RecadosBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RecadosBlazor.props",
+      "PackagePath": "buildTransitive\\RecadosBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

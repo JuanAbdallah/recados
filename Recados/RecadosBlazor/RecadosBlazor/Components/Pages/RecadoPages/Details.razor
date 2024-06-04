@@ -1,0 +1,49 @@
+﻿@page "/recados/details"
+@inject RecadosBlazor.Data.AppDbContext DB
+@using RecadosBlazor.Models
+@inject NavigationManager NavigationManager
+@using Microsoft.EntityFrameworkCore
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h4>Recado</h4>
+    <hr />
+    @if (recado is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Mensagem</dt>
+            <dd class="col-sm-10">@recado.Mensagem</dd>
+            <dt class="col-sm-2">Remetente</dt>
+            <dd class="col-sm-10">@recado.Remetente</dd>
+            <dt class="col-sm-2">Destinatario</dt>
+            <dd class="col-sm-10">@recado.Destinatario</dd>
+        </dl>
+        <div>
+            <a href="@($"/recados/edit?id={recado.Id}")">Edit</a> |
+            <a href="@($"/recados")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    Recado? recado;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        recado = await DB.Recados.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (recado is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

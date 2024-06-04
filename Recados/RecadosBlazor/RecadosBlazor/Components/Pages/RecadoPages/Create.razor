@@ -1,0 +1,53 @@
+﻿@page "/recados/create"
+@inject RecadosBlazor.Data.AppDbContext DB
+@using RecadosBlazor.Models
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h4>Recado</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Recado" OnValidSubmit="AddRecado" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem:</label> 
+                <InputText id="mensagem" @bind-Value="Recado.Mensagem" class="form-control" /> 
+                <ValidationMessage For="() => Recado.Mensagem" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="remetente" class="form-label">Remetente:</label> 
+                <InputText id="remetente" @bind-Value="Recado.Remetente" class="form-control" /> 
+                <ValidationMessage For="() => Recado.Remetente" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="destinatario" class="form-label">Destinatario:</label> 
+                <InputText id="destinatario" @bind-Value="Recado.Destinatario" class="form-control" /> 
+                <ValidationMessage For="() => Recado.Destinatario" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/recados">Back to List</a>
+</div>
+
+@code {
+
+    [SupplyParameterFromForm]
+    public Recado Recado { get; set; } = new();
+
+    // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+    public async Task AddRecado()
+    {
+        DB.Recados.Add(Recado);
+        await DB.SaveChangesAsync();
+        NavigationManager.NavigateTo("/recados");
+    }
+}
