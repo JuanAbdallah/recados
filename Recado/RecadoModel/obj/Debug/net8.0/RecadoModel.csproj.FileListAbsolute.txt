@@ -1,0 +1,12 @@
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\bin\Debug\net8.0\RecadoModel.deps.json
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\bin\Debug\net8.0\RecadoModel.dll
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\bin\Debug\net8.0\RecadoModel.pdb
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\RecadoModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\RecadoModel.AssemblyInfoInputs.cache
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\RecadoModel.AssemblyInfo.cs
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\RecadoModel.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\RecadoModel.sourcelink.json
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\RecadoModel.dll
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\refint\RecadoModel.dll
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\RecadoModel.pdb
+C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoModel\obj\Debug\net8.0\ref\RecadoModel.dll

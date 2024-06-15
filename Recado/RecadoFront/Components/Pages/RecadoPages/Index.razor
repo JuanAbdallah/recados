@@ -1,0 +1,50 @@
+﻿@page "/recados"
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient Http
+@using RecadoModel
+
+<h1>Recados</h1>
+
+@if (recados == null)
+{
+    <p><strong>Carregando...</strong></p>
+}
+else
+{
+    <a href="/recados/create" class="btn btn-primary">Inserir</a>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Mensagem</th>
+                <th scope="col">Remetente</th>
+                <th scope="col">Destinatário</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var recado in recados)
+            {
+                <tr>
+                    <td>@recado.Mensagem</td>
+                    <td>@recado.Remetente</td>
+                    <td>@recado.Destinatario</td>
+                    <td>
+                        <a href=@($"/recados/details?id={recado.Id}") class="btn btn-secondary btn-sm">Consultar</a>
+                        <a href=@($"/recados/edit?id={recado.Id}") class="btn btn-warning btn-sm">Alterar</a>
+                        <a href=@($"/recados/delete?id={recado.Id}") class="btn btn-danger btn-sm">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<RecModel> recados;
+
+    protected override async Task OnInitializedAsync()
+    {
+        recados = await Http.GetFromJsonAsync<List<RecModel>>("api/recadoes");
+    }
+}

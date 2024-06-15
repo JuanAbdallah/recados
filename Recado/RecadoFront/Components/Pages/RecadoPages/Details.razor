@@ -1,0 +1,56 @@
+﻿@page "/recados/details/{Id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using RecadoModel
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h4>Recado</h4>
+    <hr />
+    @if (recado is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+            <dt class="col-sm-2">Mensagem</dt>
+            <dd class="col-sm-10">@recado.Mensagem</dd>
+            <dt class="col-sm-2">Remetente</dt>
+            <dd class="col-sm-10">@recado.Remetente</dd>
+            <dt class="col-sm-2">Destinatario</dt>
+            <dd class="col-sm-10">@recado.Destinatario</dd>
+        </dl>
+        <div>
+            <a href="@($"/recados/edit/{recado.Id}")">Edit</a> |
+            <a href="/recados">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private RecModel? recado;
+
+    [Parameter]
+    public int Id { get; set; }
+    private string errorMessage;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        try
+        {
+            recado = await Http.GetFromJsonAsync<RecModel>($"api/recadoes/{Id}");
+            if (recado == null)
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error loading Recado: {ex.Message}";
+        }
+    }
+}
