@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = RecadoBlazor
+build_property.RootNamespace = RecadoBlazor
+build_property.ProjectDir = C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoBlazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Usuário\OneDrive\Documentos\ADS\Periodo3\PWA\trabalho_pwa\Recado\RecadoBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/RecadoPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjYWRvUGFnZXNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/RecadoPages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjYWRvUGFnZXNcRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/RecadoPages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjYWRvUGFnZXNcRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/RecadoPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjYWRvUGFnZXNcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/RecadoPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjYWRvUGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hkuv66eenc
+
+[C:/Users/Usuário/OneDrive/Documentos/ADS/Periodo3/PWA/trabalho_pwa/Recado/RecadoBlazor/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4zo6926f4k

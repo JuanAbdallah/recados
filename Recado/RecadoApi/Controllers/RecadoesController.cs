@@ -12,26 +12,24 @@ namespace Recados.Controllers
     [ApiController]
     public class RecadoesController : ControllerBase
     {
-
         private readonly RecadosDAO _dao;
+
         public RecadoesController()
         {
             _dao = new RecadosDAO();
         }
 
-        // GET: api/Recados
         [HttpGet]
         public async Task<ActionResult<IEnumerable<RecModel>>> GetRecados()
         {
-            var recados = _dao.ListarTodos();
+            var recados = await _dao.ListarTodosAsync();
             return Ok(recados);
         }
 
-        // GET: api/Recados/5
         [HttpGet("{id:int}")]
         public async Task<ActionResult<RecModel>> GetRecado(int id)
         {
-            var recado = _dao.BuscarPorId(id);
+            var recado = await _dao.BuscarPorIdAsync(id);
             if (recado == null)
             {
                 return NotFound();
@@ -39,11 +37,10 @@ namespace Recados.Controllers
             return Ok(recado);
         }
 
-        // GET: api/Recados/mensagem/5
         [HttpGet("mensagem/{id}")]
         public async Task<ActionResult<string>> GetMensagem(int id)
         {
-            var recado = _dao.BuscarPorId(id);
+            var recado = await _dao.BuscarPorIdAsync(id);
             if (recado == null)
             {
                 return NotFound();
@@ -51,11 +48,10 @@ namespace Recados.Controllers
             return Ok(recado.Mensagem);
         }
 
-        // GET: api/Recados/remetente={remetente}
         [HttpGet("remetente={remetente}")]
         public async Task<ActionResult<List<RecModel>>> GetRecadoByRemetente(string remetente)
         {
-            var recados = _dao.ListarTodos().Where(r => r.Remetente == remetente).ToList();
+            var recados = (await _dao.ListarTodosAsync()).Where(r => r.Remetente == remetente).ToList();
             if (!recados.Any())
             {
                 return NotFound();
@@ -63,11 +59,10 @@ namespace Recados.Controllers
             return Ok(recados);
         }
 
-        // GET: api/Recados/destinatario={destinatario}
         [HttpGet("destinatario={destinatario}")]
         public async Task<ActionResult<List<RecModel>>> GetMensagemByDestinatario(string destinatario)
         {
-            var recados = _dao.ListarTodos().Where(r => r.Destinatario == destinatario).ToList();
+            var recados = (await _dao.ListarTodosAsync()).Where(r => r.Destinatario == destinatario).ToList();
             if (!recados.Any())
             {
                 return NotFound();
@@ -75,7 +70,6 @@ namespace Recados.Controllers
             return Ok(recados);
         }
 
-        // PUT: api/Recados/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutRecados(int id, RecModel recado)
         {
@@ -86,11 +80,11 @@ namespace Recados.Controllers
 
             try
             {
-                _dao.Alterar(recado);
+                await _dao.AlterarAsync(recado);
             }
             catch (Exception)
             {
-                if (_dao.BuscarPorId(id) == null)
+                if (await _dao.BuscarPorIdAsync(id) == null)
                 {
                     return NotFound();
                 }
@@ -103,25 +97,23 @@ namespace Recados.Controllers
             return NoContent();
         }
 
-        // POST: api/Recados
         [HttpPost]
         public async Task<ActionResult<RecModel>> PostRecados(RecModel recado)
         {
-            _dao.Inserir(recado);
+            await _dao.InserirAsync(recado);
             return CreatedAtAction(nameof(GetRecado), new { id = recado.Id }, recado);
         }
 
-        // DELETE: api/Recados/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteRecados(int id)
         {
-            var recado = _dao.BuscarPorId(id);
+            var recado = await _dao.BuscarPorIdAsync(id);
             if (recado == null)
             {
                 return NotFound();
             }
 
-            _dao.Deletar(id);
+            await _dao.DeletarAsync(id);
             return NoContent();
         }
     }

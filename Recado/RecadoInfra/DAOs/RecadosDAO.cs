@@ -2,6 +2,7 @@
 using Dapper;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using RecadoModel;
 
 namespace RecadosInfra.DAOs
@@ -10,71 +11,54 @@ namespace RecadosInfra.DAOs
     {
         const string connectionString = "Server=localhost; User ID=root; Password=Rafael050300!; Database=camillao";
 
-        public void Inserir(RecModel recado)
+        public async Task InserirAsync(RecModel recado)
         {
             using (var conexao = new MySqlConnection(connectionString))
             {
-                conexao.Open();
-
-                string sql = @"INSERT INTO recado 
-                               (mensagem, remetente, destinatario) 
-                               VALUES (@Mensagem, @Remetente, @Destinatario)";
-
-                conexao.Execute(sql, recado);
+                await conexao.OpenAsync();
+                string sql = @"INSERT INTO recado (mensagem, remetente, destinatario) VALUES (@Mensagem, @Remetente, @Destinatario)";
+                await conexao.ExecuteAsync(sql, recado);
             }
         }
 
-        public void Alterar(RecModel recado)
+        public async Task AlterarAsync(RecModel recado)
         {
             using (var conexao = new MySqlConnection(connectionString))
             {
-                conexao.Open();
-
-                string sql = @"UPDATE recado 
-                               SET mensagem = @Mensagem, 
-                                   remetente = @Remetente, 
-                                   destinatario = @Destinatario 
-                               WHERE id = @Id";
-
-                conexao.Execute(sql, recado);
+                await conexao.OpenAsync();
+                string sql = @"UPDATE recado SET mensagem = @Mensagem, remetente = @Remetente, destinatario = @Destinatario WHERE id = @Id";
+                await conexao.ExecuteAsync(sql, recado);
             }
         }
 
-        public void Deletar(int id)
+        public async Task DeletarAsync(int id)
         {
             using (var conexao = new MySqlConnection(connectionString))
             {
-                conexao.Open();
-
-                string sql = @"DELETE FROM recado 
-                               WHERE id = @Id";
-
-                conexao.Execute(sql, new { Id = id });
+                await conexao.OpenAsync();
+                string sql = @"DELETE FROM recado WHERE id = @Id";
+                await conexao.ExecuteAsync(sql, new { Id = id });
             }
         }
 
-        public RecModel BuscarPorId(int id)
+        public async Task<RecModel> BuscarPorIdAsync(int id)
         {
             using (var conexao = new MySqlConnection(connectionString))
             {
-                conexao.Open();
-
-                string sql = @"SELECT * FROM recado 
-                               WHERE id = @Id";
-
-                return conexao.QueryFirstOrDefault<RecModel>(sql, new { Id = id });
+                await conexao.OpenAsync();
+                string sql = @"SELECT * FROM recado WHERE id = @Id";
+                return await conexao.QueryFirstOrDefaultAsync<RecModel>(sql, new { Id = id });
             }
         }
 
-        public List<RecModel> ListarTodos()
+        public async Task<List<RecModel>> ListarTodosAsync()
         {
             using (var conexao = new MySqlConnection(connectionString))
             {
-                conexao.Open();
-
+                await conexao.OpenAsync();
                 string sql = @"SELECT * FROM recado";
-
-                return conexao.Query<RecModel>(sql).ToList();
+                var result = await conexao.QueryAsync<RecModel>(sql);
+                return result.ToList();
             }
         }
     }
