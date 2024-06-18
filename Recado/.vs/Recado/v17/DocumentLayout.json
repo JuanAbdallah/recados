@@ -11,6 +11,26 @@
       "RelativeMoniker": "D:0:0:{CDBA1E86-7089-4D59-802A-E87F12B44A07}|RecadoApi\\RecadoApi.csproj|solutionrelative:recadoapi\\controllers\\recadoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\recadoblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\recadoblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\helpers\\apic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\helpers\\apic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{593722DA-9ABA-4398-9A92-DFB0A8103835}|RecadoInfra\\RecadoInfra.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoinfra\\daos\\recadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{593722DA-9ABA-4398-9A92-DFB0A8103835}|RecadoInfra\\RecadoInfra.csproj|solutionrelative:recadoinfra\\daos\\recadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,8 +42,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "RecadoBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Program.cs",
+              "RelativeToolTip": "RecadoBlazor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T19:59:26.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\App.razor",
+              "RelativeDocumentMoniker": "RecadoBlazor\\App.razor",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\App.razor",
+              "RelativeToolTip": "RecadoBlazor\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T19:59:23.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\_Imports.razor",
+              "RelativeDocumentMoniker": "RecadoBlazor\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\_Imports.razor",
+              "RelativeToolTip": "RecadoBlazor\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T19:59:20.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiC.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\helpers\\ApiC.cs",
+              "RelativeDocumentMoniker": "RecadoBlazor\\helpers\\ApiC.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\helpers\\ApiC.cs",
+              "RelativeToolTip": "RecadoBlazor\\helpers\\ApiC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T19:40:03.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecadoBlazor",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\RecadoBlazor.csproj",
+              "RelativeDocumentMoniker": "RecadoBlazor\\RecadoBlazor.csproj",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\RecadoBlazor.csproj",
+              "RelativeToolTip": "RecadoBlazor\\RecadoBlazor.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-17T19:39:32.593Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -49,14 +134,14 @@
               "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
               "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
               "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEoAAAA4AAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-17T14:40:27.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "RecadosDAO.cs",
               "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoInfra\\DAOs\\RecadosDAO.cs",
               "RelativeDocumentMoniker": "RecadoInfra\\DAOs\\RecadosDAO.cs",

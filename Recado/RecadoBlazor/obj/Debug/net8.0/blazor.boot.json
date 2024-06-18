@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RecadoBlazor",
   "resources": {
-    "hash": "sha256-vtlS1P4BeBoZAGeQKWE7gpsmK5jyzn2CQS11fvcyEUY=",
+    "hash": "sha256-7m8jbyS3gsGyJuE+d6/4kw9OTw0yIk9DMQ6o58n4Zb8=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.ihh69faao2.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -222,14 +222,14 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "RecadoInfra.wasm": "sha256-vzxM+AXID3UKZ8IKLsB2xbzoSovGMIRqSRNXn83jAAw=",
-      "RecadoModel.wasm": "sha256-5PXJk8aElRjHhOrmH03OUa+h3M4qoAMuOn4H5aNxsTU=",
-      "RecadoBlazor.wasm": "sha256-RkzODS/r2LPgRTP7I1zBtu2d9uJlNG21pyxRBO62cLw="
+      "RecadoInfra.wasm": "sha256-yf5CEguvnjjc/iNb7rvSGdj+MX4QfvhsuwnYWbCgRmw=",
+      "RecadoModel.wasm": "sha256-pOhb8RO6PnRSTDlzJhKkdfT6IHGvjImIRsWAB5QuCPo=",
+      "RecadoBlazor.wasm": "sha256-+9XDZzfmU8kCtCipwZZ853PiREq61/XM83uH9Fsh0rQ="
     },
     "pdb": {
-      "RecadoInfra.pdb": "sha256-lNlfrGzT16hpf22lDS4IxpNLOiBEqIRjKINPNFNyIIc=",
-      "RecadoModel.pdb": "sha256-lGMo4WxM/N9wmP4i8PPU6Tr4bYrMY4TfPa/pRCUPBi0=",
-      "RecadoBlazor.pdb": "sha256-ZuI2ZXCauAK0dqqW41JTEcGBbpArzPDszYb9ZsOAuYI="
+      "RecadoInfra.pdb": "sha256-eLsXMpZaL/J5Oad8mH/GFn5Ga5HiOvnyGG13Qw3AYDQ=",
+      "RecadoModel.pdb": "sha256-3x3RYjhrgl4Pp89YC4KqGxcg0ld8KMuRY32ZB1UakZo=",
+      "RecadoBlazor.pdb": "sha256-vbKGuJMH5neL1UEAod1Bjc+HEcgzKdaYIBbB6LDmh3k="
     }
   },
   "cacheBootResources": true,
