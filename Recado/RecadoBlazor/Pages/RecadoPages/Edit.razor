@@ -57,10 +57,6 @@ else
     {
         Recado = await Http.GetFromJsonAsync<RecModel>($"api/recadoes/{Id}");
 
-        if (Recado == null)
-        {
-            NavigationManager.NavigateTo("notfound");
-        }
     }
 
     private async Task UpdateRecado()

@@ -48,14 +48,11 @@
         try
         {
             recado = await Http.GetFromJsonAsync<RecModel>($"api/recadoes/{Id}");
-            if (recado == null)
-            {
-                NavigationManager.NavigateTo("notfound");
-            }
+            
         }
         catch (Exception ex)
         {
-            errorMessage = $"Error loading Recado: {ex.Message}";
+            errorMessage = $"Erro: {ex.Message}";
         }
     }
 
@@ -70,12 +67,12 @@
             }
             else
             {
-                errorMessage = "Error deleting Recado.";
+                errorMessage = "Erro ao deletar";
             }
         }
         catch (Exception ex)
         {
-            errorMessage = $"Error deleting Recado: {ex.Message}";
+            errorMessage = $"Erro: {ex.Message}";
         }
     }
 }

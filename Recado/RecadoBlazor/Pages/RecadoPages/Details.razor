@@ -43,10 +43,7 @@
         try
         {
             recado = await Http.GetFromJsonAsync<RecModel>($"api/recadoes/{Id}");
-            if (recado == null)
-            {
-                NavigationManager.NavigateTo("notfound");
-            }
+            
         }
         catch (Exception ex)
         {
