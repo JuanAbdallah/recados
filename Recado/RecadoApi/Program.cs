@@ -5,18 +5,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//// Configure CORS policy
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowSpecificOrigins",
-//        builder =>
-//        {
-//            builder.WithOrigins("https://localhost:7190") // The URL of your Blazor app
-//                   .AllowAnyMethod()
-//                   .AllowAnyHeader()
-//                   .AllowCredentials(); // Optional: if you need to allow credentials
-//        });
-//});
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy", builder => {
@@ -38,7 +26,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Apply the CORS policy
 app.UseCors("CorsPolicy");
 
 app.UseAuthorization();

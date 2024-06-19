@@ -9,8 +9,8 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-builder.Services.AddScoped<ApiC>(sp =>
-    new ApiC("http://localhost:7081") // The base address of your API
-);
+//builder.Services.AddScoped<ApiC>(sp =>
+//    new ApiC("http://localhost:7081")
+//);
 
 await builder.Build().RunAsync();

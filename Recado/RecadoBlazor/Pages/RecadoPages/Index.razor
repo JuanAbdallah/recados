@@ -32,9 +32,9 @@ else
                     <td>@recado.Remetente</td>
                     <td>@recado.Destinatario</td>
                     <td>
-                        <a href=@($"/recados/details?id={recado.Id}") class="btn btn-secondary btn-sm">Consultar</a>
-                        <a href=@($"/recados/edit?id={recado.Id}") class="btn btn-warning btn-sm">Alterar</a>
-                        <a href=@($"/recados/delete?id={recado.Id}") class="btn btn-danger btn-sm">Excluir</a>
+                        <a href=@($"/recados/details/{recado.Id}") class="btn btn-secondary btn-sm">Consultar</a>
+                        <a href=@($"/recados/edit/{recado.Id}") class="btn btn-warning btn-sm">Alterar</a>
+                        <a href=@($"/recados/delete/{recado.Id}") class="btn btn-danger btn-sm">Excluir</a>
                     </td>
                 </tr>
             }
@@ -49,7 +49,7 @@ else
     {
         try
         {
-            recados = await Http.GetFromJsonAsync<IList<RecModel>>("/api/recadoes");
+            recados = await Http.GetFromJsonAsync<IList<RecModel>>("https://localhost:7081/api/recadoes");
         }
         catch (Exception ex)
         {

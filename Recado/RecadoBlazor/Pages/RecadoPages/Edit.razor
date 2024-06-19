@@ -4,15 +4,15 @@
 @using RecadoModel
 @using Microsoft.AspNetCore.Components.Forms
 
-<PageTitle>Edit</PageTitle>
+<PageTitle>Alterar</PageTitle>
 
-<h1>Edit</h1>
+<h1>Alterar</h1>
 
 <h4>Recado</h4>
 <hr />
 @if (Recado == null)
 {
-    <p><em>Loading...</em></p>
+    <p><em>Carregando...</em></p>
 }
 else
 {
@@ -37,14 +37,14 @@ else
                     <InputText id="destinatario" @bind-Value="Recado.Destinatario" class="form-control" />
                     <ValidationMessage For="() => Recado.Destinatario" class="text-danger" />
                 </div>
-                <button type="submit" class="btn btn-primary">Save</button>
+                <button type="submit" class="btn btn-primary">Salvar</button>
             </EditForm>
         </div>
     </div>
 }
 
 <div>
-    <a href="/recados">Back to List</a>
+    <a href="/recados">Voltar</a>
 </div>
 
 @code {
@@ -55,13 +55,13 @@ else
 
     protected override async Task OnParametersSetAsync()
     {
-        Recado = await Http.GetFromJsonAsync<RecModel>($"api/recadoes/{Id}");
+        Recado = await Http.GetFromJsonAsync<RecModel>($"https://localhost:7081/api/recadoes/{Id}");
 
     }
 
     private async Task UpdateRecado()
     {
-        var response = await Http.PutAsJsonAsync($"api/recadoes/{Recado!.Id}", Recado);
+        var response = await Http.PutAsJsonAsync($"https://localhost:7081/api/recadoes/{Recado!.Id}", Recado);
 
         if (response.IsSuccessStatusCode)
         {

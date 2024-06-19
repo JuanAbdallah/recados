@@ -3,16 +3,16 @@
 @inject NavigationManager NavigationManager
 @using RecadoModel
 
-<PageTitle>Details</PageTitle>
+<PageTitle>Detalhes</PageTitle>
 
-<h1>Details</h1>
+<h1>Detalhes</h1>
 
 <div>
     <h4>Recado</h4>
     <hr />
     @if (recado is null)
     {
-        <p><em>Loading...</em></p>
+        <p><em>Carregando...</em></p>
     }
     else
     {
@@ -25,8 +25,8 @@
             <dd class="col-sm-10">@recado.Destinatario</dd>
         </dl>
         <div>
-            <a href="@($"/recados/edit/{recado.Id}")">Edit</a> |
-            <a href="/recados">Back to List</a>
+            <a href="@($"/recados/edit/{recado.Id}")">Alterar</a> |
+            <a href="/recados">Voltar</a>
         </div>
     }
 </div>
@@ -42,8 +42,8 @@
     {
         try
         {
-            recado = await Http.GetFromJsonAsync<RecModel>($"api/recadoes/{Id}");
-            
+            recado = await Http.GetFromJsonAsync<RecModel>($"https://localhost:7081/api/recadoes/{Id}");
+
         }
         catch (Exception ex)
         {

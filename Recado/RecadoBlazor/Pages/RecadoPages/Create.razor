@@ -3,9 +3,9 @@
 @inject NavigationManager NavigationManager
 @using RecadoModel
 
-<PageTitle>Create</PageTitle>
+<PageTitle>Criar</PageTitle>
 
-<h1>Create</h1>
+<h1>Criar</h1>
 
 <h4>Recado</h4>
 <hr />
@@ -29,13 +29,13 @@
                 <InputText id="destinatario" @bind-Value="recado.Destinatario" class="form-control" />
                 <ValidationMessage For="() => recado.Destinatario" class="text-danger" />
             </div>
-            <button type="submit" class="btn btn-primary">Create</button>
+            <button type="submit" class="btn btn-primary">Criar</button>
         </EditForm>
     </div>
 </div>
 
 <div>
-    <a href="/recados">Back to List</a>
+    <a href="/recados">Voltar</a>
 </div>
 
 @code {
@@ -47,7 +47,7 @@
     {
         try
         {
-            var response = await Http.PostAsJsonAsync("api/recadoes", recado);
+            var response = await Http.PostAsJsonAsync("https://localhost:7081/api/recadoes", recado);
             if (response.IsSuccessStatusCode)
             {
                 NavigationManager.NavigateTo("/recados");

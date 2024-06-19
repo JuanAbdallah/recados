@@ -5,13 +5,11 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecadoApi", "RecadoApi\RecadoApi.csproj", "{CDBA1E86-7089-4D59-802A-E87F12B44A07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecadoFront", "RecadoFront\RecadoFront.csproj", "{71B38199-4687-412E-BBCC-F3ED5F4517D6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecadoInfra", "RecadoInfra\RecadoInfra.csproj", "{593722DA-9ABA-4398-9A92-DFB0A8103835}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecadoModel", "RecadoModel\RecadoModel.csproj", "{F4DBF404-2483-4303-B08F-03B91BC45FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecadoBlazor", "RecadoBlazor\RecadoBlazor.csproj", "{30ECA00D-6B60-40DB-9159-D228DCBF92B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecadoBlazor", "RecadoBlazor\RecadoBlazor.csproj", "{30ECA00D-6B60-40DB-9159-D228DCBF92B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{CDBA1E86-7089-4D59-802A-E87F12B44A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDBA1E86-7089-4D59-802A-E87F12B44A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDBA1E86-7089-4D59-802A-E87F12B44A07}.Release|Any CPU.Build.0 = Release|Any CPU
-		{71B38199-4687-412E-BBCC-F3ED5F4517D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71B38199-4687-412E-BBCC-F3ED5F4517D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71B38199-4687-412E-BBCC-F3ED5F4517D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71B38199-4687-412E-BBCC-F3ED5F4517D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{593722DA-9ABA-4398-9A92-DFB0A8103835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{593722DA-9ABA-4398-9A92-DFB0A8103835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593722DA-9ABA-4398-9A92-DFB0A8103835}.Release|Any CPU.ActiveCfg = Release|Any CPU
