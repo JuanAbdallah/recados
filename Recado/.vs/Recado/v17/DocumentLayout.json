@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\",
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\pages\\recadopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\pages\\recadopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\bkp\\drive\\recado\\recadoblazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\pages\\recadopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\pages\\recadopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{593722DA-9ABA-4398-9A92-DFB0A8103835}|RecadoInfra\\RecadoInfra.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\bkp\\drive\\recado\\recadoinfra\\daos\\recadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{593722DA-9ABA-4398-9A92-DFB0A8103835}|RecadoInfra\\RecadoInfra.csproj|solutionrelative:recadoinfra\\daos\\recadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\pages\\recadopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\pages\\recadopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\pages\\recadopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\pages\\recadopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\recado\\recadoblazor\\pages\\recadopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\bkp\\drive\\recado\\recadoblazor\\pages\\recadopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\pages\\recadopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\ads\\periodo3\\pwa\\trabalho_pwa\\bkp\\drive\\recado\\recadoblazor\\pages\\recadopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30ECA00D-6B60-40DB-9159-D228DCBF92B0}|RecadoBlazor\\RecadoBlazor.csproj|solutionrelative:recadoblazor\\pages\\recadopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.razor",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
-              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
-              "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABIAAAA",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\Pages\\Home.razor",
+              "RelativeToolTip": "RecadoBlazor\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T19:58:41.579Z"
+              "WhenOpened": "2024-06-20T14:22:05.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Delete.razor",
-              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Delete.razor",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Delete.razor",
-              "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Delete.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
+              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
+              "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T19:58:30.627Z"
+              "WhenOpened": "2024-06-20T14:20:56.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.razor",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Details.razor",
-              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Details.razor",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Details.razor",
-              "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Details.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T19:58:20.338Z",
+              "DocumentIndex": 1,
+              "Title": "RecadosDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\DAOs\\RecadosDAO.cs",
+              "RelativeDocumentMoniker": "RecadoInfra\\DAOs\\RecadosDAO.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\DAOs\\RecadosDAO.cs",
+              "RelativeToolTip": "RecadoInfra\\DAOs\\RecadosDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:26:33.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Edit.razor",
-              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Edit.razor",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Edit.razor",
-              "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Edit.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
+              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
+              "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T19:58:02.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
-              "RelativeDocumentMoniker": "RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
-              "RelativeToolTip": "RecadoBlazor\\Pages\\RecadoPages\\Index.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T19:54:38.359Z"
+              "WhenOpened": "2024-06-19T20:25:50.14Z"
             }
           ]
         }

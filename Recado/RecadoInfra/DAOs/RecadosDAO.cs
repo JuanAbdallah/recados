@@ -9,7 +9,7 @@ namespace RecadosInfra.DAOs
 {
     public class RecadosDAO
     {
-        const string connectionString = "Server=localhost; User ID=root; Password=Rafael050300!; Database=camillao";
+        const string connectionString = "Server=localhost; User ID= root ; Password= Rafael050300!; Database= camillao";
 
         public async Task InserirAsync(RecModel recado)
         {
