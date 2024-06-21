@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\obj\\Debug\\net8.0\\compressed\\997l5315h3.gz",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\obj\\Debug\\net8.0\\compressed\\997l5315h3.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RecadoBlazor.styles.css",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RecadoBlazor.styles.css",
       "PackagePath": "staticwebassets\\RecadoBlazor.styles.css"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

@@ -1,0 +1,74 @@
+﻿@page "/recados/procurar"
+@inject HttpClient Http
+@using RecadoModel
+
+<PageTitle>Buscar Recados</PageTitle>
+
+<h1>Buscar Recados</h1>
+
+<h4>Recados</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm Model="recado" OnValidSubmit="SearchRecados">
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            <div class="mb-3">
+                <label for="remetente" class="form-label">Termo de Busca:</label>
+                <InputText id="remetente" @bind-Value="remetente" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </EditForm>
+    </div>
+</div>
+
+@if (recados != null)
+{
+    <div class="mt-4">
+        <h4>Resultados da Busca</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Mensagem</th>
+                    <th>Remetente</th>
+                    <th>Destinatário</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var recado in recados)
+                {
+                    <tr>
+                        <td>@recado.Mensagem</td>
+                        <td>@recado.Remetente</td>
+                        <td>@recado.Destinatario</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="text-danger">@errorMessage</div>
+}
+
+@code {
+    private string remetente;
+    private RecModel recado = new();
+    private List<RecModel> recados;
+    private string errorMessage;
+
+    private async Task SearchRecados()
+    {
+        try
+        {
+            var response = await Http.GetFromJsonAsync<List<RecModel>>($"https://localhost:7081/api/recadoes/remetente={remetente}");
+            recados = response;
+                        
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erro ao procurar recado: {ex.Message}";
+        }
+    }
+}

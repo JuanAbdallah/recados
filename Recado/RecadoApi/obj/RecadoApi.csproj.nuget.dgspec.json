@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoApi\\RecadoApi.csproj": {}
+    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoApi\\RecadoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoApi\\RecadoApi.csproj": {
+    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoApi\\RecadoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoApi\\RecadoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoApi\\RecadoApi.csproj",
         "projectName": "RecadoApi",
-        "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoApi\\RecadoApi.csproj",
+        "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoApi\\RecadoApi.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoApi\\obj\\",
+        "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\RecadoInfra.csproj": {
-                "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\RecadoInfra.csproj"
+              "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoInfra\\RecadoInfra.csproj": {
+                "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoInfra\\RecadoInfra.csproj"
               },
-              "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\RecadoModel.csproj": {
-                "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\RecadoModel.csproj"
+              "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\RecadoModel.csproj": {
+                "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\RecadoModel.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\RecadoInfra.csproj": {
+    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoInfra\\RecadoInfra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\RecadoInfra.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoInfra\\RecadoInfra.csproj",
         "projectName": "RecadoInfra",
-        "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\RecadoInfra.csproj",
+        "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoInfra\\RecadoInfra.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoInfra\\obj\\",
+        "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoInfra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -118,8 +118,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\RecadoModel.csproj": {
-                "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\RecadoModel.csproj"
+              "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\RecadoModel.csproj": {
+                "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\RecadoModel.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\RecadoModel.csproj": {
+    "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\RecadoModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\RecadoModel.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\RecadoModel.csproj",
         "projectName": "RecadoModel",
-        "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\RecadoModel.csproj",
+        "projectPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\RecadoModel.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoModel\\obj\\",
+        "outputPath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

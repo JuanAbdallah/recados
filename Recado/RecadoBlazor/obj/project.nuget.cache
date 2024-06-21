@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lJXrjX57RlA=",
+  "dgSpecHash": "vH4JPAWIIvY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\bkp\\drive\\Recado\\RecadoBlazor\\RecadoBlazor.csproj",
+  "projectFilePath": "C:\\Users\\Usuário\\OneDrive\\Documentos\\ADS\\Periodo3\\PWA\\trabalho_pwa\\Recado\\RecadoBlazor\\RecadoBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
