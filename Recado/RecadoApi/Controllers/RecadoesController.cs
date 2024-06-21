@@ -51,7 +51,7 @@ namespace Recados.Controllers
         [HttpGet("remetente={remetente}")]
         public async Task<ActionResult<List<RecModel>>> GetRecadoByRemetente(string remetente)
         {
-            var recados = (await _dao.ListarTodosAsync()).Where(r => r.Remetente == remetente).ToList();
+            var recados = (await _dao.ListarTodosAsync()).Where(r => r.Remetente.ToLower().Contains(remetente.ToLower())).ToList();
             if (!recados.Any())
             {
                 return NotFound();
@@ -62,7 +62,9 @@ namespace Recados.Controllers
         [HttpGet("destinatario={destinatario}")]
         public async Task<ActionResult<List<RecModel>>> GetMensagemByDestinatario(string destinatario)
         {
-            var recados = (await _dao.ListarTodosAsync()).Where(r => r.Destinatario == destinatario).ToList();
+            var recados = (await _dao.ListarTodosAsync())
+                   .Where(r => r.Destinatario.ToLower().Contains(destinatario.ToLower()))
+                   .ToList();
             if (!recados.Any())
             {
                 return NotFound();

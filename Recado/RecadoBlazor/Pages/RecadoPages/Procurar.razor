@@ -6,16 +6,26 @@
 
 <h1>Buscar Recados</h1>
 
-<h4>Recados</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <EditForm Model="recado" OnValidSubmit="SearchRecados">
+        <EditForm Model="recado" OnValidSubmit="ProcurarPorRemetente">
             <DataAnnotationsValidator />
             <ValidationSummary class="text-danger" />
             <div class="mb-3">
-                <label for="remetente" class="form-label">Termo de Busca:</label>
+                <label for="remetente" class="form-label">Remetente:</label>
                 <InputText id="remetente" @bind-Value="remetente" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </EditForm>
+    </div>
+    <div class="col-md-4">
+        <EditForm Model="recado" OnValidSubmit="ProcurarPorDestinatario">
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            <div class="mb-3">
+                <label for="destinatario" class="form-label">Destinario:</label>
+                <InputText id="destinatario" @bind-Value="destinatario" class="form-control" />
             </div>
             <button type="submit" class="btn btn-primary">Buscar</button>
         </EditForm>
@@ -26,12 +36,13 @@
 {
     <div class="mt-4">
         <h4>Resultados da Busca</h4>
-        <table class="table">
+        <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>Mensagem</th>
-                    <th>Remetente</th>
-                    <th>Destinatário</th>
+                    <th scope="col">Mensagem</th>
+                    <th scope="col">Remetente</th>
+                    <th scope="col">Destinatário</th>
+                    <th scope="col">Ações</th>
                 </tr>
             </thead>
             <tbody>
@@ -41,6 +52,11 @@
                         <td>@recado.Mensagem</td>
                         <td>@recado.Remetente</td>
                         <td>@recado.Destinatario</td>
+                        <td>
+                            <a href=@($"/recados/details/{recado.Id}") class="btn btn-secondary btn-sm">Consultar</a>
+                            <a href=@($"/recados/edit/{recado.Id}") class="btn btn-warning btn-sm">Alterar</a>
+                            <a href=@($"/recados/delete/{recado.Id}") class="btn btn-danger btn-sm">Excluir</a>
+                        </td>
                     </tr>
                 }
             </tbody>
@@ -53,22 +69,36 @@ else if (!string.IsNullOrEmpty(errorMessage))
 }
 
 @code {
-    private string remetente;
+    private string? remetente;
+    private string? destinatario;
     private RecModel recado = new();
-    private List<RecModel> recados;
+    private IList<RecModel>? recados;
     private string errorMessage;
 
-    private async Task SearchRecados()
+    private async Task ProcurarPorRemetente()
     {
         try
         {
-            var response = await Http.GetFromJsonAsync<List<RecModel>>($"https://localhost:7081/api/recadoes/remetente={remetente}");
-            recados = response;
+            recados = await Http.GetFromJsonAsync<IList<RecModel>>($"https://localhost:7081/api/recadoes/remetente={remetente}");
+
                         
         }
         catch (Exception ex)
         {
-            errorMessage = $"Erro ao procurar recado: {ex.Message}";
+            errorMessage = $"Erro ao procurar recado: não encontrado nenhum recado com o remetente pesquisado";
+        }
+    }
+    private async Task ProcurarPorDestinatario()
+    {
+        try
+        {
+            recados = await Http.GetFromJsonAsync<IList<RecModel>>($"https://localhost:7081/api/recadoes/destinatario={destinatario}");
+
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erro ao procurar recado: não encontrado nenhum recado com o destinatário pesquisado";
+
         }
     }
 }
